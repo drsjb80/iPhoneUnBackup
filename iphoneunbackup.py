@@ -5,8 +5,6 @@ import sqlite3
 import sys
 import time
 
-# https://www.richinfante.com/2017/3/16/reverse-engineering-the-ios-backup#manifestdb
-
 # CREATE TABLE Files (fileID TEXT PRIMARY KEY, domain TEXT, dst TEXT, flags INTEGER, file BLOB);
 
 connection = sqlite3.connect('Manifest.db')
